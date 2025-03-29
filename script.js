@@ -99,4 +99,9 @@ const renderSongs = (array) => {
       </li>`;
     })
     .join("");
+  playlistSongs.innerHTML = songsHTML;
 };
+const sortSongs = () => {
+  userData?.songs.sort((a, b) => {});
+};
+renderSongs(userData?.songs);
